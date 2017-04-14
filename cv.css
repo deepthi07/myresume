@@ -12,8 +12,12 @@ body {
 	color: #222;
 }
 .header {
-  padding: 0 0 3em 0;
+  padding: 0 0 2em 0;
   margin: 0 0 1em 0;
+}
+
+.header h3 {
+  font-weight: 300;
 }
 
 h1, h2, h3, h4 {
@@ -141,7 +145,7 @@ p label {
 	display: block;
 }
 .section h3 span.l, .section span.r {
-	width: 49%;
+	/*width: 49%;*/
 	float: left;
 }
 	.section span.r {
@@ -160,7 +164,13 @@ p label {
 }
 
 .section .info .achievements {
-  margin-top: 5px; 
+  margin-top: 5px;
+}
+
+.skill-section h4 {
+  padding: 0.3em 0 0.3em 0;
+  font-size: 105%;
+  font-weight: 600;
 }
 
 #photo {
@@ -187,6 +197,7 @@ p label {
 
 ul.contact {
   padding: 2px 0 2px 0;
+  font-weight: 300;
 }
 
 ul.contact li{
